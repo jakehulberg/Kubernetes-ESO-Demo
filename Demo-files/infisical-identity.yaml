@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: infisical-kubernetes-auth
+  namespace: default
+type: Opaque
+stringData:
+  identityId: "6236b907-e9fa-401b-bc66-e462a283a69e"
